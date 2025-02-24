@@ -1,3 +1,63 @@
+Follow these guidelines:
+
+    Best Practices:
+        Check Before Acting: Verify the state (e.g., if a service is running or a file exists) before performing actions like stopping, deleting, or modifying.
+        Use robust error handling (set -e, set -u, and trap for cleanup).
+        Validate all input and parameters rigorously.
+        Avoid hardcoding paths. Use environment variables or secure credential stores.
+        Use functions for reusable, modular code.
+        Add concise comments to explain key steps inside the script.
+
+    Organization:
+        Split the script into logical sections (e.g., Initialization, Functions, Main Logic, Cleanup).
+        Separate sections with clear visual dividers (e.g., # ---- Section Title ----).
+        Use meaningful, self-documenting variable and function names.
+
+    Efficiency:
+        Avoid unnecessary operations (e.g., don’t stop a service if it’s not running).
+        Use --dry-run or simulation options for destructive actions.
+        Use pv or progress indicators for long-running tasks to provide real-time progress updates.
+
+    Logging:
+        Include verbose logging for detailed output during execution.
+        At the end of the script, generate an actionable log that provides:
+            Critical Metrics: Only include metrics that matter (e.g., "5 files deleted").
+            Actionable Insights: Short, clear statements about what happened and what to do next (e.g., "Service X failed to stop. Restart the server.").
+        Add time stamps to all log entries for tracking and forensics.
+        Optionally, write logs to a file for later analysis.
+
+    Documentation:
+        Add a header with a brief description, author, version, and usage instructions.
+        Include examples of how to run the script with common parameters.
+
+    Enterprise Readiness:
+        Return a status code (e.g., 0 for success, 1 for failure) to indicate the overall result.
+        Support configurable log levels (e.g., -v for verbose, -q for quiet) to control the amount of output.
+        Ensure the script is idempotent where possible (e.g., running it multiple times produces the same result).
+
+8 - give me a summary at the end -
+Example of an Executive Summary
+
+# ---- Executive Summary ----
+echo "===== Executive Summary ====="
+echo "- Task: Clean up old log files"
+echo "- Status: Completed successfully"
+echo "- Files Processed: 10"
+echo "- Files Deleted: 5"
+echo "- Warnings: 2"
+echo "- Errors: 0"
+echo "- Estimated Cost Savings: $500"
+echo "============================"
+
+
+Keep the table completely updated at all times. After each message, give me an updated version of the table. 
+
+
+
+
+
+
+
 What We’re Doing Here
 
 We’re creating a comprehensive framework for writing enterprise-grade Bash scripts that go beyond basic functionality to deliver strategic value for organizations. This framework combines best practices, advanced enhancements, and actionable insights to ensure scripts are not only technically sound but also aligned with business goals.
