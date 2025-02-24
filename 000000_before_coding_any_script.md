@@ -89,11 +89,6 @@ We’re always looking for ways to make this framework better. Here’s how you 
    - Add **time stamps** to all log entries for tracking and forensics.
    - Optionally, write logs to a file for later analysis.
 
-5. **Security**:
-   - Ensure the script follows the principle of least privilege.
-   - Use secure methods for handling credentials (e.g., environment variables, encrypted files).
-   - Sanitize all input to prevent injection attacks.
-
 6. **Documentation**:
    - Add a header with a brief description, author, version, and usage instructions.
    - Include examples of how to run the script with common parameters.
@@ -102,6 +97,22 @@ We’re always looking for ways to make this framework better. Here’s how you 
    - Return a **status code** (e.g., `0` for success, `1` for failure) to indicate the overall result.
    - Support configurable log levels (e.g., `-v` for verbose, `-q` for quiet) to control the amount of output.
    - Ensure the script is idempotent where possible (e.g., running it multiple times produces the same result).
+
+8 - give me a summary at the end - 
+### **Example of an Executive Summary**
+```bash
+# ---- Executive Summary ----
+echo "===== Executive Summary ====="
+echo "- Task: Clean up old log files"
+echo "- Status: Completed successfully"
+echo "- Files Processed: 10"
+echo "- Files Deleted: 5"
+echo "- Warnings: 2"
+echo "- Errors: 0"
+echo "- Estimated Cost Savings: $500"
+echo "============================"
+```
+
 
 Here’s the structure to follow:
 
