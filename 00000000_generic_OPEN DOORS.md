@@ -1,3 +1,35 @@
+ok so we have the big winner - and 10 supermans - now how to beyond them??
+
+**"From a first-principles perspective, rigorously analyze [Specific Topic/Question] across all relevant dimensions—strategic, systemic, ethical, and innovative. Synthesize authoritative insights, challenge conventional assumptions, and deliver a comprehensive, actionable framework with prioritized recommendations for maximizing impact and resilience in a dynamic environment."**
+
+
+1. **"From a first-principles perspective, deconstruct the core assumptions and underlying logic of current 'best practices' in [Field/Domain]. Propose a more fundamental and innovative approach."**  
+
+2. **"As a scenario planning specialist, construct three distinct future scenarios (best-case, worst-case, most-likely) for [Specific Complex Issue]. Develop robust contingency strategies for each, emphasizing adaptability & resilience."**  
+
+3. **"As a competitive intelligence expert, conduct a deep-dive analysis of the emerging competitive landscape in [Market/Sector]. Uncover hidden threats, untapped opportunities, and key strategic differentiators for market leadership."**  
+
+4. **"To unlock hidden potential and untapped opportunities, design a systematic framework for identifying and leveraging 'weak signals' and emerging trends in [Specific Field/Domain]. Prioritize early detection, proactive adaptation, and first-mover advantage."**  
+
+5. **"As a futurist consultant to a global conglomerate, map the potential black swan events that could reshape [Industry/Domain] in the next decade. Deliver a resilience-focused strategic outlook."**  
+
+6. **"From a systems thinking perspective, analyze the complex interdependencies within [System/Ecosystem]. Identify critical leverage points for optimization, resilience enhancement, and transformative intervention."**  
+
+7. **"For a problem that has resisted conventional solutions in [Specific Domain], develop a novel, interdisciplinary approach drawing upon insights from seemingly unrelated fields. Prioritize cross-pollination of ideas and unexpected breakthroughs."**  
+
+8. **"As a disruptive innovation catalyst, brainstorm 3 'moonshot' ideas for [Organization/Individual] to achieve radical innovation and create entirely new markets in [Specific Domain]. Prioritize audacious thinking and transformative potential."**  
+
+9. **"Challenge the conventional wisdom surrounding: [Specific Widely Held Belief] and explore alternative perspectives."**  
+
+10. **"Develop a 10-year strategic vision, outline the most critical emerging technologies and disruptive trends that will fundamentally reshape [Industry/Domain]. Deliver a prioritized strategic technology roadmap."**  
+
+
+
+
+
+
+
+
 As a strategic advisor to a Fortune 500 CEO, provide an enterprise-grade framework
 
 
