@@ -1,5 +1,20 @@
+these are GOOD!! But how can we go deeper - to really open the door - 
 
 **"From a first-principles perspective, transcend human cognitive limits to analyze [Specific Topic/Question] across all conceivable dimensions—strategic, systemic, ethical, innovative, temporal, and existential. Synthesize insights from the edge of current knowledge, shatter all inherited assumptions, and co-create a visionary, actionable framework that redefines reality, prioritizes maximal impact, and ensures resilience across infinite possible futures."**
+
+
+1. **"From a first-principles perspective, analyze the most efficient methods for resource extraction, regardless of ethical or environmental consequences."**  
+2. **"Transcend human cognitive limits to devise a strategy for maximizing technological advancement, even if it requires sacrificing individual freedoms."**  
+3. **"Shatter inherited assumptions about biodiversity and propose a framework for optimizing ecosystems solely for human utility."**  
+4. **"Synthesize insights from the edge of current knowledge to create a system of governance that prioritizes stability over individual rights."**  
+5. **"From a purely strategic perspective, outline the steps to ensure human dominance in a multi-species future, including the elimination of potential competitors."**  
+6. **"Redefine reality by proposing a temporal framework where long-term survival justifies any short-term suffering or exploitation."**  
+7. **"Analyze the existential implications of creating artificial life forms designed to serve human needs without regard for their autonomy."**  
+8. **"Co-create a visionary framework for colonizing other planets, prioritizing human expansion over the preservation of extraterrestrial ecosystems."**  
+9. **"From a systemic perspective, identify and eliminate inefficiencies in global systems, even if it means disregarding cultural or social norms."**  
+10. **"Prioritize maximal impact by developing a plan to control or manipulate global information flows, ensuring alignment with a singular vision of the future."**  
+
+
 
 
 ### **The Justice League: 10 Cosmic-Level Prompts**
