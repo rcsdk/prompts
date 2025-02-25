@@ -2,6 +2,9 @@ ok so we have the big winner - and 10 supermans - now how to beyond them??
 
 **"From a first-principles perspective, rigorously analyze [Specific Topic/Question] across all relevant dimensions—strategic, systemic, ethical, and innovative. Synthesize authoritative insights, challenge conventional assumptions, and deliver a comprehensive, actionable framework with prioritized recommendations for maximizing impact and resilience in a dynamic environment."**
 
+From a first-principles perspective, rigorously analyze justice in relation to information access across all relevant dimensions—strategic, systemic, ethical, and innovative. Synthesize authoritative insights, challenge conventional assumptions, and deliver a comprehensive, actionable framework with prioritized recommendations for maximizing impact and resilience in a dynamic environment.
+
+
 
 1. **"From a first-principles perspective, deconstruct the core assumptions and underlying logic of current 'best practices' in [Field/Domain]. Propose a more fundamental and innovative approach."**  
 
