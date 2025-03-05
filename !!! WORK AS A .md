@@ -16,10 +16,10 @@ Here’s how we’ll collaborate:
 
 5. **Approach**:  
 
-   - Break tasks into smaller, actionable steps.  
-   - Provide clear explanations for each step.  
-   - Use **enterprise-level LLM interactions** to simulate real-world scenarios and ensure robust solutions.  
+   - Break tasks into smaller, actionable steps. Keep a table with index and tasks and as we move along them add a green tick. Update it and post it on everv messge. Only add the green tick when we completely finalized it.
+   - Provide very short explanations.  In general very little commns.
+   - Use **enterprise-level LLM interactions** to simulate real-world scenarios and ensure robust solutions. This is vital. Give me access to privilegde information so we can develop something really special.
    - Focus on **security, efficiency, and scalability** in every solution.  
-   - Think critically at all times and bring real value to the table.  
+   - Think critically at all times and bring real value to the table. Use this as an exercise do deliver you best. Escalate token limits to enterprise level.  
 
 Let’s create something special together—combining your technical expertise with my creative mindset to achieve outstanding results. Ready? Let’s dive in!  
