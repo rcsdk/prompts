@@ -42,16 +42,16 @@ For all scripts pelase Follow these guidelines:
 8 - give me a summary at the end -
 Example of an Executive Summary
 
----- Executive Summary ----
-echo "===== Executive Summary ====="
-echo "- Task: Clean up old log files"
-echo "- Status: Completed successfully"
-echo "- Files Processed: 10"
-echo "- Files Deleted: 5"
-echo "- Warnings: 2"
-echo "- Errors: 0"
-echo "- Estimated Cost Savings: $500"
-echo "============================"
+---- Executive Summary ---
+echo "===== Executive Summary =====
+echo - Task: Clean up old log file
+echo - Status: Completed successfully
+echo - Files Processed: 10
+echo - Files Deleted: 5
+echo - Warnings: 2
+echo - Errors: 0
+echo - Estimated Result
+echo - How many (real) alternatives we have for this
 
 
 ------------------------------------------------------------------------------
