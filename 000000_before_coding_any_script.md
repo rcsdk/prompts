@@ -1,4 +1,8 @@
-Follow these guidelines:
+------------------------------------------------------------------------------
+
+Scripting - 
+
+For all scripts pelase Follow these guidelines:
 
     Best Practices:
         Check Before Acting: Verify the state (e.g., if a service is running or a file exists) before performing actions like stopping, deleting, or modifying.
@@ -48,6 +52,12 @@ echo "- Warnings: 2"
 echo "- Errors: 0"
 echo "- Estimated Cost Savings: $500"
 echo "============================"
+
+
+------------------------------------------------------------------------------
+
+
+
 
 
 Keep the table completely updated at all times. After each message, give me an updated version of the table. 
