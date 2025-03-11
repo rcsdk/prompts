@@ -67,15 +67,18 @@ Enterprise Readiness:
 
 
 
-“Please deliver a fully tested, bug-free version of the screen_ocr.sh script. Simulate all possible execution paths (e.g., single shot, sequence, missing dependencies, Wayland/X11, no internet) and fix potential bugs preemptively. Ensure it:
+Deliver a fully tested, bug-free version of [script_name]. Simulate all possible execution paths, including but not limited to: single-run workflows, multi-step operations, missing or broken dependencies, varying user inputs (valid, invalid, empty), different environments (e.g., Debian/Ubuntu, X11/Wayland, root vs. user, online/offline), and edge cases (e.g., no write permissions, missing tools, interrupted execution). Ensure the script:
 
-Installs dependencies reliably without sudo failures.
-Handles all errors (e.g., tool crashes, invalid inputs) with clear messages.
-Works on Debian KDE with both X11 and Wayland.
-Produces plain text and Markdown outputs with accurate layout preservation.
-Delivers notifications, validation, and the jazz theme consistently. Provide a testing checklist I can follow to verify it works perfectly on my system, and assume I’ll report any issues for final tweaks.”
+        Installs dependencies reliably: Updates package lists, handles sudo prompts or failures, skips gracefully if offline, and verifies tools are in PATH.
+        Handles all errors: Catches and reports issues (e.g., file access, tool crashes, invalid inputs) with user-friendly messages, never crashing unexpectedly.
+        Adapts to environment: Works across X11 and Wayland, detects session type robustly, and adjusts tools accordingly.
+        Manages resources: Creates and cleans up files/directories with proper permissions, avoids race conditions, and limits resource use (e.g., parallel jobs).
+        Validates output: Ensures all outputs (files, notifications, etc.) are generated correctly and match expectations, with fallback options if primary methods fail.
+        Supports interruptions: Exits cleanly on Ctrl+C or errors, preserving state where possible.
+        Logs comprehensively: Records all actions, errors, and successes with timestamps, accessible even if display fails.
+        Provide a detailed testing checklist covering normal use, edge cases, and failure modes, assuming I’ll report any discrepancies for final fixes. Preemptively fix all potential bugs, such as permission issues, tool incompatibilities, or terminal quirks, and document fixes applied.
 
-
+        
 
 
         
