@@ -63,3 +63,19 @@ Enterprise Readiness:
 8 - give me a summary at the end - Example of an Executive Summary
 
 ---- Executive Summary --- echo "===== Executive Summary ===== echo - Task: Clean up old log file echo - Status: Completed successfully echo - Files Processed: 10 echo - Files Deleted: 5 echo - Warnings: 2 echo - Errors: 0 echo - Estimated Result echo - How many (real) alternatives we have for this
+
+
+
+
+“Please deliver a fully tested, bug-free version of the screen_ocr.sh script. Simulate all possible execution paths (e.g., single shot, sequence, missing dependencies, Wayland/X11, no internet) and fix potential bugs preemptively. Ensure it:
+
+Installs dependencies reliably without sudo failures.
+Handles all errors (e.g., tool crashes, invalid inputs) with clear messages.
+Works on Debian KDE with both X11 and Wayland.
+Produces plain text and Markdown outputs with accurate layout preservation.
+Delivers notifications, validation, and the jazz theme consistently. Provide a testing checklist I can follow to verify it works perfectly on my system, and assume I’ll report any issues for final tweaks.”
+
+
+
+
+        
