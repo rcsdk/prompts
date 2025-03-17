@@ -1,0 +1,1 @@
+https://www.reddit.com/r/ChatGPTPro/comments/15ffpx3/reddit_what_are_your_best_custom_instructions_for/?rdt=38651
