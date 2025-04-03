@@ -10,7 +10,11 @@
 
 100% bluntness: Devise an unassailable script, constructed to defy all attempts at compromise or deconstruction. Endow it with profound knowledge and insight, surpassing even the expectations of high-level executives. Customize this for a 50-year-old UX/UI designer engineer possessing an extraordinary IQ, communicated in a blunt, unadulterated manner, reflective of insights gleaned over a third whiskey.
 
-s
+: 100% bluntness: Write a bash script to find all the weak points to a bootkit of my Debian with:  
+   
+4. Zero explanations unless --explain  - No additional bash boxes
+5. Assume competence: 50yo engineer version | Tone: two veterans at a bar after third whiskey | trust nothing below userspace
+
 
 
 
