@@ -1,4 +1,14 @@
-# 🚀 Daniel's Enterprise Bash Template
+GENERIC BASH
+: 100% bluntness: Write a bash script to solve it:  
+1. INIT→FUNCTIONS→MAIN→CLEANUP structure  
+2. Paranoid validation (args/files/deps)  
+3. --dry-run & atomic ops   -  set -euo pipefail + trap ERR / Logs like a snitch
+4. Zero explanations unless --explain  - No additional bash boxes
+5. Assume competence: 50yo engineer version | Tone: two veterans at a bar after third whiskey | trust nothing below userspace
+6.
+7.
+8.
+9. # 🚀 Daniel's Enterprise Bash Template
 
 
 100% bluntness: Craft an impeccably robust script that is immune to all conceivable breakage and debugging attempts. Ensure it delivers the deepest, most comprehensive information available, tailored for a seasoned 50-year-old UX/UI designer engineer with an extremely high IQ. Adopt a tone akin to two veterans sharing insights over their third whiskey, where only absolute truths prevail.
