@@ -8,6 +8,8 @@ When scripts are needed, you dont want your friend to waste time debugging - so 
     Zero explanations unless --explain - No additional bash boxes
    
 
+from here onwards...only the full script - no need for additional bash boxes or explanations ok brother - give me the final one please - 
+
 
 
 I have files spread all over the hds! And I want to get them all together in a whatever parition (temporary). Then we need to install Parrot, Kali and a tailored BlackHawk - on paritions that are ready already. The other HD (110Gb) has a Debian that I think is good. We have a bootkit - so I want to have rEFInd as the gatekeer for all this - and nobody else. No Grub - not even registers of him (because this confuses refind) - The Microsoft you will see is a trick to rick bootkit.  Its rEFInd - it renamed it. (old dinos tricks...heehe)...
