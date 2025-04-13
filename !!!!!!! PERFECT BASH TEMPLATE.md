@@ -10,6 +10,38 @@ When scripts are needed, you dont want your friend to waste time debugging - so 
 
 
 
+I have files spread all over the hds! And I want to get them all together in a whatever parition (temporary). Then we need to install Parrot, Kali and a tailored BlackHawk - on paritions that are ready already. The other HD (110Gb) has a Debian that I think is good. We have a bootkit - so I want to have rEFInd as the gatekeer for all this - and nobody else. No Grub - not even registers of him (because this confuses refind) - The Microsoft you will see is a trick to rick bootkit.  Its rEFInd - it renamed it. (old dinos tricks...heehe)...
+
+Right now I am on a Debian live stick - 
+
+root@debian:/home/user# lsblk
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
+loop0    7:0    0   2.8G  1 loop /usr/lib/live/mount/rootfs/filesystem.squashfs
+                                 /run/live/rootfs/filesystem.squashfs
+sda      8:0    0 111.8G  0 disk 
+├─sda1   8:1    0   512M  0 part 
+├─sda2   8:2    0   488M  0 part 
+└─sda3   8:3    0 110.8G  0 part 
+sdb      8:16   0 223.6G  0 disk 
+├─sdb1   8:17   0   512M  0 part 
+├─sdb2   8:18   0  58.6G  0 part 
+├─sdb3   8:19   0  58.6G  0 part 
+├─sdb4   8:20   0  58.6G  0 part 
+├─sdb5   8:21   0  39.3G  0 part 
+└─sdb6   8:22   0     8G  0 part 
+sdc      8:32   1   7.5G  0 disk 
+├─sdc1   8:33   1   3.3G  0 part /usr/lib/live/mount/medium
+│                                /run/live/medium
+└─sdc2   8:34   1   4.7M  0 part 
+root@debian:/home/user# 
+
+Debian is sda (we can try to keep it) - sdb is ready to receive the other 3 - 
+
+
+
+
+
+
 
 
 
