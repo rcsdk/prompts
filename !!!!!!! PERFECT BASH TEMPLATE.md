@@ -10,6 +10,99 @@ When scripts are needed, you dont want your friend to waste time debugging - so 
 
 from here onwards...only the full script - no need for additional bash boxes or explanations ok brother - give me the final one please - 
 
+all of them under rEFInd - already there too - on  sda1 - /mnt/EFI/refind/refind.conf   - its working perfeclty - so no need to change place - -just do a proper conf  - everyhing u see microspft was me doing the trick to fool bootkit -
+
+sdb - kali already there - we need to check and also harden it - then we need to install parrot - and a very special version of blackhawk that you will do for me /p))))  extra parition to keep contingency plann- all ISOs to immediate re-installation with scripts etc -
+
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
+loop0    7:0    0   2.8G  1 loop /usr/lib/live/mount/rootfs/filesystem.squashfs
+                                 /run/live/rootfs/filesystem.squashfs
+sda      8:0    0 111.8G  0 disk 
+├─sda1   8:1    0   512M  0 part 
+├─sda2   8:2    0   488M  0 part 
+└─sda3   8:3    0 110.8G  0 part 
+sdb      8:16   0 223.6G  0 disk 
+├─sdb1   8:17   0   512M  0 part 
+├─sdb2   8:18   0  58.6G  0 part 
+├─sdb3   8:19   0  58.6G  0 part 
+├─sdb4   8:20   0  58.6G  0 part 
+├─sdb5   8:21   0  39.3G  0 part 
+└─sdb6   8:22   0     8G  0 part 
+sdc      8:32   1   7.5G  0 disk 
+├─sdc1   8:33   1   3.3G  0 part /usr/lib/live/mount/medium
+│                                /run/live/medium
+└─sdc2   8:34   1   4.7M  0 part 
+sdd      8:48   1     0B  0 disk 
+sde      8:64   1  59.5G  0 disk 
+├─sde1   8:65   1   4.1G  0 part 
+└─sde2   8:66   1   6.3M  0 part 
+root@debian:/home/user# mount /dev/sda1 /mnt
+root@debian:/home/user# ^C
+root@debian:/home/user# ^C
+root@debian:/home/user# ^C
+root@debian:/home/user# lslbk
+bash: lslbk: command not found
+root@debian:/home/user# lsblk
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
+loop0    7:0    0   2.8G  1 loop /usr/lib/live/mount/rootfs/filesystem.squashfs
+                                 /run/live/rootfs/filesystem.squashfs
+sda      8:0    0 111.8G  0 disk 
+├─sda1   8:1    0   512M  0 part /mnt
+├─sda2   8:2    0   488M  0 part 
+└─sda3   8:3    0 110.8G  0 part 
+sdb      8:16   0 223.6G  0 disk 
+├─sdb1   8:17   0   512M  0 part /mnt/efi
+│                                /boot/efi
+├─sdb2   8:18   0  58.6G  0 part 
+├─sdb3   8:19   0  58.6G  0 part 
+├─sdb4   8:20   0  58.6G  0 part /mnt/kali
+├─sdb5   8:21   0  39.3G  0 part 
+└─sdb6   8:22   0     8G  0 part 
+sdc      8:32   1   7.5G  0 disk 
+├─sdc1   8:33   1   3.3G  0 part /usr/lib/live/mount/medium
+│                                /run/live/medium
+└─sdc2   8:34   1   4.7M  0 part 
+root@debian:/home/user# lsblk -f
+NAME FSTYPE FSVER LABEL UUID                                 FSAVAIL FSUSE% MOUNTPOINTS
+loop0
+     squash 4.0                                                    0   100% /usr/lib/live/mount/rootfs/filesystem.squashfs
+                                                                            /run/live/rootfs/files
+                                                                            ystem.squashfs
+sda                                                                         
+├─sda1
+│    vfat   FAT32       6AAB-587B                             503.1M     2% /mnt
+├─sda2
+│                                                                           
+└─sda3
+     crypto 2           044d80a8-f3fd-4769-9f8f-fcfc242bd3ef                
+sdb                                                                         
+├─sdb1
+│    vfat   FAT32       7BDC-6884                             503.1M     2% /mnt/efi
+│                                                                           /boot/efi
+├─sdb2
+│    btrfs              6fa5c781-59ef-4fc8-adec-e64d1582a610                
+├─sdb3
+│                                                                           
+├─sdb4
+│    ext4   1.0   KALI_2025
+│                       7a9f2351-9c66-46f2-88f7-db6ef5f164c6                /mnt/kali
+├─sdb5
+│    ext4   1.0   rescue_sdb5
+│                       c6c757f5-6f4b-49c0-8d45-0e2325544256                
+└─sdb6
+     swap   1           350d8817-9540-4208-adaf-572909be8470                
+sdc  iso966 Jolie d-live 12.9.0 kd amd64
+                        2025-01-11-10-25-55-00                              
+├─sdc1
+│    iso966 Jolie d-live 12.9.0 kd amd64
+│                       2025-01-11-10-25-55-00                     0   100% /usr/lib/live/mount/medium
+│                                                                           /run/live/medium
+└─sdc2
+     vfat   FAT12       6782-4733                                           
+root@debian:/home/user# 
+sda- encrypted - pass - MadRe((24))@@! - Debian- already there - could use some love - hardening - kernel -
+
+
 
 
 I have files spread all over the hds! And I want to get them all together in a whatever parition (temporary). Then we need to install Parrot, Kali and a tailored BlackHawk - on paritions that are ready already. The other HD (110Gb) has a Debian that I think is good. We have a bootkit - so I want to have rEFInd as the gatekeer for all this - and nobody else. No Grub - not even registers of him (because this confuses refind) - The Microsoft you will see is a trick to rick bootkit.  Its rEFInd - it renamed it. (old dinos tricks...heehe)...
