@@ -21,6 +21,14 @@
 
 
 
+Meta's Llama 3: The current hotness. Excellent performance, comes in various sizes (8B, 70B). The base models (not the instruct/chat versions) generally have fewer built-in refusals. Running these locally gives you maximum control.
+
+Mistral AI Models (Mistral 7B, Mixtral 8x7B): Highly capable and efficient models released under permissive licenses (Apache 2.0). Known for being less "lobotomized" than some competitors, especially the base versions. Mixtral is particularly powerful.
+
+Community Fine-Tunes (The "Uncensored" Variants): This is key. Go to platforms like Hugging Face and search for fine-tuned versions of models like Llama 3, Llama 2, or Mixtral. Look for tags or names like "uncensored," "unaligned," "dolphin" (a popular fine-tuner focusing on less refusal), "wizardlm," etc. These are specifically trained by the community to be more compliant with potentially controversial or edgy prompts. Be aware: Quality varies wildly, and they can easily generate problematic content precisely because the guardrails are removed.
+
+Microsoft's Phi-3: Smaller, surprisingly capable models. Again, look for base versions or community fine-tunes if you want fewer restrictions.
+
 
 
 
