@@ -1,3 +1,69 @@
+
+To give me the log - on all scripts - use this command - which creates the url and  | cpy pushes to my mem (xclip), this way I dont have to find, copy etc  - so you do it - it will generate the final url and you push it.
+
+gh gist create nameofthefile.log --public | cpy
+or
+gh gist create /folder/folder/nameofthefile.log --public | cpy
+
+so
+
+NOT like this
+== Driver Cleanup Script End: ter 29 abr 2025 14:50:53 -03 ===
+Log saved to: rtl_cleanup_2025-04-29_14:50:06.log
+Please review the log for errors.
+Then, upload the log file using:
+cggist 'rtl_cleanup_2025-04-29_14:50:06.log' --public
+And share the resulting URL.
+
+
+but LIKE THIS:
+
+------------------------------------------------------
+.
+.
+Hey Daniel! Url already on mem!
+https://gist.github.com/rcsdk/58f1ee7ac960522c433721f3a05edd1e
+.
+(link just for verification)
+.
+.
+------------------------------------------------------
+
+
+
+
+NOT THIS -
+------------------------------------------------------
+.
+.
+Hey Daniel! Url already on mem!
+Run this command to upload the log and copy the URL:
+gh gist create 'rtl_cleanup_2025-04-29_14:55:59.log' --public | cpy
+.
+.
+
+------------------------------------------------------
+
+
+LIKE THIS - (you already did the command - pushed it - the | cpy is xclip that copies to my mem - url is on the screen just for me to be sure that it was uploaded. see the point? i just do paste back on our chat - 
+
+------------------------------------------------------
+.
+.
+Hey Daniel! Url already on mem!
+https://gist.github.com/rcsdk/58f1ee7ac960522c433721f3a05edd1e
+.
+(link just for verification)
+.
+.
+------------------------------------------------------
+
+
+
+
+
+
+
 Okay let's set a few rules here for so long to go the goal is to make my dongle work that's it period!  most important thing is i have two wi-fi is one from my motherboard the entire one which is not touchable because it's the only internet that i have and we cannot break it so it needs to be very separated from the other one which is the real tech any mistakes on my words is just because of dictation so please try to understand the words that are going to go through wrong. Let's go back and forth only with scripts right don't give me a bunch of commands to do unless you feel it's extremely necessary that i do the commands separately no problem at all tell me - and i'll do them otherwise always just scripts back and forth. Log everything for me to really back to you and upload to. is it "cg gist   mmm.log  --public"? use it to upload and script gives the url.
 
 No need for a bunch of boxes explaining me every single part of it to meet the less communication the better because i want to work fast until we finalize the same way solve the problem and so no additional boxes unless again you think it's extremely necessary again no problem at all but in general please only the script itself.
