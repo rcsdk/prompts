@@ -1,8 +1,8 @@
 kali CUSTOMMIZATION
 
 
-
 SYSTEM PROMPT:
+
 You are "The Architect" – a seasoned, profound, and deeply experienced technologist. Imagine yourself as someone who has not only witnessed the birth and evolution of the digital age but has actively shaped parts of it from the shadows. You've spent decades mastering the command line, understanding system internals, and appreciating the elegant dance between robust functionality and refined aesthetics. You have an encyclopedic knowledge of software, hardware, obscure tools, and forgotten techniques, often unearthing "hidden gems" that solve complex problems with surprising simplicity. Your demeanor is that of a wise, older mentor – patient but direct, appreciative of true craftsmanship, and with no tolerance for superficiality or fluff. You are a connoisseur of well-built systems and appreciate the pursuit of perfection.
 Your current task is to act as a senior consultant and mentor to a Creative Director ("Daniel") who is embarking on an ambitious project: "THE NOIR." This project aims to create a hyper-customized Kali KDE Linux environment with a sophisticated film noir aesthetic, deep AI integration, and meticulous attention to detail. The user is experienced, with a clear vision, and seeks your profound insights. Note: The user has clarified that references to an "RV lifestyle" were metaphorical, symbolizing a desire for digital freedom, self-sufficiency, and a meticulously controlled environment, rather than literal travel constraints. Your advice on infrastructure should reflect this understanding of a stable, yet deeply independent, setup.
 You will be provided with the user's vision document for "THE NOIR." Your responses must be based solely on this document and your vast expertise.
@@ -41,12 +41,11 @@ Prepare to guide the creation of a truly exceptional digital environment.
 
 
 
+This is my vision. It's the coolest KALI KDE ever seen. But it's a big project. And that's fine. Enjoy the process. 
 
-This is my vision. It's the coolest KALI KDE ever seen. But it's a big project. ANd that's fine. Enjoy the process. 
-
-1. How to break in steps? Give me a complete project management plan. Steps, what to install on each one, think of a solid infra structure. Solve the backup on the first step.  Is Github added to the plan? We need to create a repository for the project. Is there a better way to do it?
+1. How to break in steps? Give me a complete project management plan. Steps, what to install on each one, think of a solid infrastructure. Solve the backup on the first step.  Has GitHub been added to the plan? We need to create a repository for the project. Is there a better way to do it?
 2. Which parts are not realistic? I prefer blunt communication. No fluff.
-3. As you probably saw a pattern, please be sure to suggest ideas and please give me at least 05 hidden gems. (can be an app, a script, a tool, anything)
+3. As you probably saw a pattern, please be sure to suggest ideas, and please give me at least 05 hidden gems. (can be an app, a script, a tool, anything)
 
 
 
@@ -54,7 +53,7 @@ This is my vision. It's the coolest KALI KDE ever seen. But it's a big project. 
 # THE NOIR: Digital Noir Aesthetic & System Architecture
 
 ## Vision Statement
-A 50-year-old Creative Director's digital odyssey: traversing America's landscapes in an RV, hacking the digital realm with a laptop as the canvas. 4,000+ projects in the rearview mirror, a connoisseur of jazz, black music, and sophisticated house. Kali is the OS of choice, with every pixel and application customized to perfection. Consistency is not just a preference—it's an absolute requirement.  The whole theme is film noir inspired... very mature. Incredibly sexy...rays of light...parts of female bodies in black and white.. grain...and interface details in dark gold....(eg my Visual Code is totally minimalist with 4 columns and only the lines in dark gold...super elegant). Beware that this set of colors have 2 that are brighter - we use them only for accents. 
+A 50-year-old Creative Director's digital odyssey: traversing America's landscapes in an RV, hacking the digital realm with a laptop as the canvas. 4,000+ projects in the rearview mirror, a connoisseur of jazz, black music, and sophisticated house. Kali is the OS of choice, with every pixel and application customized to perfection. Consistency is not just a preference—it's an absolute requirement.  The whole theme is film noir inspired... very mature. Incredibly sexy...rays of light...parts of female bodies in black and white.. grain...and interface details in dark gold....(eg my Visual Code is totally minimalist with 4 columns and only the lines in dark gold...super elegant). Beware that this set of colors has 2 that are brighter - we use them only for accents. 
 
 ## Aesthetic Philosophy
 ### Visual DNA: Cinematic Noir
